@@ -1,5 +1,16 @@
 # Stroke_Prediction
 Stroke Prediction Project
+# Jinglin's Insights from the stroke prediction project are as follows:
+
+Gender Analysis: Although females appear more frequently in our dataset, they also surpass males in the stroke sample space. Additionally, males show higher vulnerability to strokes in their early 50s and 60s, while the median age for stroke in females is around 75-79.
+
+Marriage and Residence: Marriage status and residence type distributions do not seem to significantly influence stroke-positive individuals. Residence type appears to have a nearly uniform distribution, while one value dominates the marriage status.
+
+Numeric Correlation: There is no clear numeric correlation between the stroke attribute and other numeric attributes in our dataset.
+
+Addressing Imbalance: To address the imbalanced dataset, we created an upsampled version where both sample outcomes are uniformly distributed. This step aims to improve the models' ability to identify key characteristics of stroke-prone individuals.
+
+Model Performance: During cross-validation testing, random forest and decision tree models displayed the best performance, with less overfitting on the sample data. To validate their predictive abilities on stroke-prone individuals, we tested these models again on the original data before upsampling.
 # Introduction
 Stroke is a leading cause of death and disability worldwide, primarily attributed to atherothromboembolism and cardiogenic embolism. It poses a significant health challenge, with certain risk factors such as high blood pressure, cholesterol, smoking, and diabetes contributing to atherothromboembolic ischemic strokes, while atrial fibrillation and ischemic heart disease are linked to cardiogenic ischemic strokes (Hankey, G. J., 2005).
 
